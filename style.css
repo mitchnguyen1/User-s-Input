@@ -1,0 +1,38 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color:#09ff00;
+  text-align: center;
+}
+
+main {
+  width: 25%; /*half size box*/ 
+  border: 5px solid black; 
+  border-radius: 2%;
+  display: block; /*centers*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%; /*adds space to top*/
+  background-color: rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px red; /*shadow*/
+}
+
+#submit {
+  float: right; /*put submit buttons to the right of box*/
+  margin-left: 5px;
+}
+
+.form-group {
+  color: #c900ff;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  font-size: larger;
+}
+.output {
+  height: auto;
+  color: #09ff00;
+  text-align: center;
+}

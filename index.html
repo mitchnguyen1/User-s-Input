@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #ff9a00;">
+  <main>
+  <form id="userInfoForm" onsubmit="return false"> <!--does not refresh page after submit-->
+    <h1>Input Your Information</h1>
+    <div class="form-group">
+        <label>First Name</label>
+        <input style="background-color: #292d28; color: azure;" type="text" class="form-control" id="fName1">
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input style="background-color: #292d28; color: azure;" type="text" class="form-control" id="lName1">
+    </div>
+    <div class="form-group">
+      <label>Age</label>
+      <input style="background-color: #292d28; color: azure;" type="text" class="form-control" id="age1">
+  </div>
+  <input id="submit" class="btn btn-success" type="submit" value="Submit">
+</form>
+<input id="reset" class="btn btn-danger" type="submit" value="Reset">
+<br>
+<br>
+<h3 class="output" id="userTextArea"></h3>
+</main>
+  <script src="main.js" type="module"></script>
+  <script src="Person.js" type="module"></script>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
